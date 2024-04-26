@@ -1,0 +1,89 @@
+body{
+  background-color: rgba(40, 35, 35, 0.071);
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+/* ----------------------header ------------------------*/
+#header{
+  position: fixed;
+  justify-content: space-between;
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: 2px 2px 10px rgb(255, 255, 255); */
+  z-index: 10;
+}
+#logo{
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  margin: 7px 5px 7px 15px;
+}
+#icon{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+#sidebarLeft{
+  position: fixed;
+  bottom: 10px;
+  top: 60px;
+  width: 25%;
+  overflow: hidden;
+  overflow-y: auto;
+  padding-left: 7px;
+  box-shadow: 1px 1px 1px white;
+}
+#sidebarLeft::-webkit-scrollbar{
+  display: none;
+}
+#sidebarLeft li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 13px;
+  padding: 8px;
+  border-radius: 4px;
+  transition: 0.1s ease;
+}
+#sidebarLeft li:hover{
+  background-color: rgba(0, 0, 0, 0.062);
+  cursor: pointer;
+}
+.sidebarText{
+  margin: 0 12px;
+  font-weight: bold;
+  color: rgb(62, 61, 61);
+}
+#MainContainer{
+  border: 2px solid gold;
+  position: absolute;
+  top: 60px;
+  left: 30%;
+  width: 48%;
+  height: 200vh;
+}
+#storyContainer{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 25%;
+  width: 94%;
+  border: 2px solid green;
+  margin: 15px 3% 5px 3%;
+  overflow: scroll;
+}
+#storyContainer::-webkit-scrollbar{
+  display: none;
+}
+.stories{
+  width: 95%;
+  aspect-ratio: 0.65;
+  border: 2px solid black;
+  margin: 5px 2.4%;
+  border-radius: 6px;
+  display: inline-block;
+}
