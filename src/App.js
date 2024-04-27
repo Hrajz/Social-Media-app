@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
 import Main from './Components/Main';
-import Login from './Components/Login';
+import LandingPage from './Components/LandingPage';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       {/* <Header/>
       <Sidebar/>
       <Main/> */}
-      <Login />
+      <LandingPage />
     </div>
   );
 }

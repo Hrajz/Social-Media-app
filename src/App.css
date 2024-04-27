@@ -7,11 +7,6 @@ body::-webkit-scrollbar {
 }
 
 /* ------------------login ----------------------------- */
-.loginText {
-  margin: 0 40px 0 150px;
-  margin-bottom: 200px;
-}
-
 .login {
   background-color: rgba(213, 232, 241, 0.416);
   height: 100vh;
@@ -20,6 +15,12 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
 }
+
+.loginText {
+  margin: 0 40px 0 150px;
+  margin-bottom: 200px;
+}
+
 
 .brandName {
   display: flex;
@@ -37,6 +38,7 @@ body::-webkit-scrollbar {
   padding: 15px;
   margin: 20px 250px 0 0;
   margin-bottom: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .input {
@@ -57,12 +59,22 @@ body::-webkit-scrollbar {
   height: 47px;
   border-radius: 10px;
   border: none;
-  background-color: rgb(50, 50, 230);
+  background-color: rgb(68, 68, 255);
   font-size: 20px;
   color: white;
   margin: 5px 0;
 }
 
+
+#forget-password {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(0, 72, 255);
+  padding: 15px 0;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: 2px solid rgb(220, 216, 216);
+}
 #create-account {
   width: 200px;
   height: 47px;
@@ -71,17 +83,7 @@ body::-webkit-scrollbar {
   background-color: rgb(32, 178, 39);
   font-size: 17px;
   color: white;
-  margin: 15px 0 20px 0;
-}
-
-#forget-password{
-  text-align: center;
-  font-size: 15px;
-  color: rgb(0, 110, 255);
-  padding: 15px 0;
-  padding-bottom: 20px;
-  width: 100%;
-  border-bottom: 2px solid rgb(220, 216, 216);
+  margin: 20px 0;
 }
 
 /* ----------------------header ------------------------*/
