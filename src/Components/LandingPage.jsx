@@ -4,8 +4,6 @@ import Signup from "./Signup";
 
 const LandingPage = () => {
 
- 
-
   return (
     <div className="login">
       <div className="loginText">
