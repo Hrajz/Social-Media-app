@@ -7,10 +7,10 @@ import LandingPage from './Components/LandingPage';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/>
       <Sidebar/>
-      <Main/>
-      {/* <LandingPage /> */}
+      <Main/> */}
+      <LandingPage />
     </div>
   );
 }
