@@ -8,7 +8,9 @@ body::-webkit-scrollbar {
 
 /* ------------------login ----------------------------- */
 .login {
-  background-color: rgba(213, 232, 241, 0.416);
+  /* background-color: rgba(213, 232, 241, 0.416); */
+  background-image: url('images - 2024-04-29T143929.736-02-01.jpeg');
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -75,6 +77,7 @@ body::-webkit-scrollbar {
   width: 100%;
   border-bottom: 2px solid rgb(220, 216, 216);
 }
+
 #create-account {
   width: 200px;
   height: 47px;
