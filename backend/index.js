@@ -1,10 +1,11 @@
 import ConnectDB from "./DB/index.js";
+import "dotenv/config";
 import express from "express";
 const app = express();
 
 ConnectDB()
 .then(
-    app.listen(3100,()=>{
+    app.listen(process.env.PORT || 7000 ,()=>{
         console.log("app is running successfully")
     })
 )

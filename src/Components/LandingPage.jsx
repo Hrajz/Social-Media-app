@@ -19,8 +19,8 @@ const LandingPage = () => {
           Koonect helps you connect and share with the people in your life.
         </p>
       </div>
-      <Login />
-      {/* <Signup /> */}
+      {/* <Login /> */}
+      <Signup />
     </div>
   );
 };
