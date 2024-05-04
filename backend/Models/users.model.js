@@ -22,6 +22,16 @@ const userSchema = new Schema(
       unique: true,
       lowercase: true,
     },
+    usedId: {
+      type: String,
+      required: true,
+      unique: true,
+      lowercase: true,
+    },
+    usedId: {
+      type: String,
+      required: true,
+    },
     dp: {
       type: String,
     },

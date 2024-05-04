@@ -9,7 +9,7 @@ const Login = () => {
           style={{ margin: "10px 0" }}
           type="text"
           name="userId"
-          required="true"
+          required={true}
           placeholder="Email address or userId"
         />
         <input
@@ -17,7 +17,7 @@ const Login = () => {
           style={{ margin: "10px 0" }}
           type="password"
           name="password"
-          required="true"
+          required={true}
           placeholder="Password"
         />
         <button id="log-in">Log in</button>
