@@ -13,9 +13,18 @@ const LandingPage = () => {
             alt=""
             style={{ width: "69px", aspectRatio: "1", borderRadius: "50%" }}
           />
-          <h2 style={{ fontSize: "60px", display: "inline" }}>OO𝐍ΣC𝐓</h2>
+          <h2 style={{ fontSize: "60px", display: "inline", color: "white" }}>
+            OO𝐍ΣC𝐓
+          </h2>
         </div>
-        <p style={{ width: "80%", margin: "0", fontSize: "24px" }}>
+        <p
+          style={{
+            width: "80%",
+            margin: "0",
+            fontSize: "24px",
+            color: "white",
+          }}
+        >
           Koonect helps you connect and share with the people in your life.
         </p>
       </div>

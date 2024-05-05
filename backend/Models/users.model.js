@@ -32,6 +32,9 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
+    dob: {
+      type: String,,
+    },
     dp: {
       type: String,
     },
@@ -71,7 +74,7 @@ const userSchema = new Schema(
         ref: "notification",
       },
     ],
-    acrivity: [
+    activity: [
       {
         type: String,
       },

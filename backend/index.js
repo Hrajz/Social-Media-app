@@ -5,6 +5,8 @@ import express from "express";
 const app = express();
 
 app.use(cors());
+// app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 ConnectDB()
 .then(
@@ -16,9 +18,9 @@ ConnectDB()
    console.log("connection Faild : ", error)
 })
 
-app.post( "", async (req, res) => {
+app.post("/signup", async (req, res) => {
   try {
-    console.log("backend", req.body)
+    console.log("backend", req.body);
     // Validation and saving to the database logic here (similar to previous examples)
     res.status(201).json({ message: "User signed up successfully." });
   } catch (error) {

@@ -20,7 +20,7 @@ const Signup = () => {
   const handleSubmit = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:3100",
+        "http://localhost:3100/signup",
         formdata
       );
       console.log("aa gya",response.data);
